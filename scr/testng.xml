@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Complete Automation Practice Suite">
+<listeners>
+<listener class-name="com.qa.ExtentReport.ExtentReporterNG" />
+</listeners>
+<test name="automationpractice test cases">
+<classes>
+<class name="com.qa.testcases.HomePageTest"/>
+<class name="com.qa.testcases.SignInPageTest"/>
+<class name="com.qa.testcases.WomenPageTest"/>
+<class name="com.qa.testcases.CreateNewAccountPageTest"/>
+</classes>
+</test>
+</suite>
